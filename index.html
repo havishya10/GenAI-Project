@@ -2,14 +2,16 @@
 <html>
 
 <head>
-	<meta name="viewport" content="width=device-width">
-    	<script type="module" src="https://gradio.s3-us-west-2.amazonaws.com/3.39.0/gradio.js"></script>
-    	<link rel="stylesheet" href="styles.css">
+    <script type="module" src="https://gradio.s3-us-west-2.amazonaws.com/3.39.0/gradio.js"></script>
+	<link href="stylesheet" rel="styles.css">
+	<meta charset="UTF-8">
+	<title>ThinkBot</title>
 </head>
 
 <body>
     <div class="main-container" id="main">
         <div class="description-container">
+
             <div class="profile-section">
                 <div class="profile-pic-container">
                     <div class="profile-pic">
@@ -136,6 +138,7 @@
         </div>
         <div class="chat-bot-container">
             <gradio-app src="https://aurora10-gradiolangchainchatbot.hf.space"></gradio-app>
+
             <!-- <iframe class="chat-bot-container-iframe" height="100%" width="100%" frameborder="0" src="https://lavanyaburlagadda-chatbot-openai-playht-old.hf.space/?__theme=dark"></iframe> -->
         </div>
         <div class="footer-section footer-mobile">
@@ -174,7 +177,6 @@
         </div>
 
     </div>
-      <script src="myscripts.js"></script>
 </body>
 
 </html>
